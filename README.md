@@ -10,7 +10,7 @@ This project was made as a part of the Information technology institute (ITI) 3 
 
 ## Screenshots
 
-![ScreenShot1](https://ibb.co/RhG6xDX)
-![ScreenShot1](https://ibb.co/4Y8sxrW)
+![ScreenShot1](images/ss1.jpg)
+![ScreenShot1](images/ss2.jpg)
 
 
