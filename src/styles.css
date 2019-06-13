@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+#logo{
+    width: 70px;
+    height: 75px;
+}
+.active{
+    border-radius: 20%;
+    border-bottom: 2px solid tomato;
+}
+.nav-item :hover{
+
+    background-color: tomato;
+    border-radius: 20%;
+}
+.list-group-item:hover{
+    border: 2px solid tomato;
+}
+.list-group{
+    border-right: 1px solid tomato;
+    border-left: 1px solid tomato;
+    border-bottom: 1px solid tomato;
+
+
+}

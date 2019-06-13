@@ -1,0 +1,8 @@
+<div class="list-group w-10 mt-2" >
+    <h5 class="text-center bg-warning">Top News</h5>
+  <a *ngFor="let topNew of topNews" [routerLink]= "['/news-details', topNew.ID ]" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex justify-content-between">
+      <h6 class="mb-1">{{topNew.Name}}</h6>
+    </div>
+  </a>
+</div>

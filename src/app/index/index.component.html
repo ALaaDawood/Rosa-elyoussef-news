@@ -1,0 +1,6 @@
+<div *ngFor="let newItem of newsItems" class="card mt-5" style="width: 35rem">
+    <a [routerLink]= "['/news-details', newItem.ID ]"><img class="card-img-top" src="{{newItem.Image}}" alt="{{newItem.ImagePath}}"></a>
+    <div class="card-body text-center">
+      <a [routerLink]= "['/news-details', newItem.ID ]" class="card-text">{{newItem.Name}}</a>
+    </div>
+  </div>
